@@ -1,0 +1,55 @@
+1.
+
+List the functions used in the file bubble_sort.py.
+    bubble_sort()
+    len()
+    range()
+    print()
+
+Which functions are defined inside the file and which are defined elsewhere? Some of these function are built-in. See a list of all built-in functions in Python.
+    bubble_sort() is defined in the file. len(), range(), and print() are built-in functions.
+
+How many loops are there in the code? Are any of them nested?
+    There are 3 loops. One is nested.
+
+How many conditional statements are there in the code? Are they nested in loops?
+    There's one conditional statement inside of two loops.
+
+What is the deepest level of nesting in the code?
+    3rd level (the conditional statement). 2nd level if only considering similar methods.
+
+Does the bubble_sort function take any arguments? If yes, what helps us determine what type they have to be?
+    The bubble_sort function takes an array.
+
+How is the bubble_sort function called?
+    bubble_sort(array)
+
+How can the array that it will work on be declared after the definition of the bubble_sort function?
+    The function isn't called until after the array is declared.
+
+Is the loop variable of the outer loop in the bubble_sort function underlined in your editor? If yes, hover over it with the mouse and see what the IDE says. Can you explain this?
+    Yes. The variable is used elsewhere in the script file.
+
+How about the argument of the function bubble_sort?
+    The argument of the function is also used elsewhere in the script.
+
+Are there any nested function calls in the code?
+    len() is called inside of range().
+
+2.
+
+Read the inline comments in the code of bubble_sort.py.
+
+What does the outer loop of bubble_sort() do?
+    Traverses the array.
+
+What does the inner loop do?
+    The inner loop performs the sort on each element it comes across (if element is greater, swap it).
+
+Prove that the last i numbers are already sorted correctly.
+    The bubble sort compares each value in the array.
+
+If the array is already sorted, will the outer loop run? How about the inner loop?
+    If the array is already sorted, both loops will still run.
+
+Modify the algorithm to print the current array after each "bubble" pass.
