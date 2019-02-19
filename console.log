@@ -1,0 +1,28 @@
+PyDev console: starting.
+Python 3.7.2 (tags/v3.7.2:9a3ffc0492, Dec 23 2018, 23:09:28) [MSC v.1916 64 bit (AMD64)] on win32
+firstNumber: int = 26
+someString: string = 'Text goes here.'
+Traceback (most recent call last):
+  File "<input>", line 1, in <module>
+NameError: name 'string' is not defined
+someString = 'Text goes here.'
+print("Foo" + "Bar")
+FooBar
+computed_num = 3*7+22-8
+some_list = []
+some_list.append("Test data")
+my_dict = {}
+d['appendage001'] = 'leg'
+Traceback (most recent call last):
+  File "<input>", line 1, in <module>
+NameError: name 'd' is not defined
+my_dict['appendage001'] = 'leg'
+my_dict['appendage002'] = 'arm'
+print(my_dict['appendage001'])
+leg
+type(my_dict)
+<class 'dict'>
+type(5)
+<class 'int'>
+type('Testing')
+<class 'str'>
