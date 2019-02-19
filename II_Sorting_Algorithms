@@ -53,3 +53,22 @@ If the array is already sorted, will the outer loop run? How about the inner loo
     If the array is already sorted, both loops will still run.
 
 Modify the algorithm to print the current array after each "bubble" pass.
+    Added code:
+        q = len(arr) - 1
+        while q >= 0:
+            print(arr[q])
+            q -= 1
+
+
+3.
+
+Try the algorithm with a list of strings. Does it work? Explain how and why?
+    Yes. The strings are taken as their ASCII values and compared.
+
+Create a new file in the project called sink_sort.py and implement a bubble_down algorithm that sorts like bubble_up, but in reverse order.
+
+Read, run, and understand how the the algorithm in the insertion_sort.py works. Output the current array after each insertion pass.
+
+Write inline comments in the insertion_sort.py file to help with the quick reading and understanding of the code.
+
+Modify the algorithm in insertion_sort.py to sort in reverse order.
